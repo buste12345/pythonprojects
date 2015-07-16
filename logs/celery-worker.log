@@ -1,0 +1,1167 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 229, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 492, in symbol_by_name
+    return symbol_by_name(name, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/utils/__init__.py", line 92, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named myapp
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 229, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 492, in symbol_by_name
+    return symbol_by_name(name, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/utils/__init__.py", line 92, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named myapp
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 229, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 492, in symbol_by_name
+    return symbol_by_name(name, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/utils/__init__.py", line 92, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named myapp
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 229, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 492, in symbol_by_name
+    return symbol_by_name(name, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/utils/__init__.py", line 92, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named myapp
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+supervisor: couldn't chdir to /home/ubuntu/workspace/nane/bin/celeryd: ENOTDIR
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/ubuntu/workspace/nane/bin/celeryd: ENOTDIR
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/ubuntu/workspace/nane/bin/celeryd: ENOTDIR
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/ubuntu/workspace/nane/bin/celeryd: ENOTDIR
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/ubuntu/workspace/nane/bin/celery: ENOTDIR
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/ubuntu/workspace/nane/bin/celery: ENOTDIR
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/ubuntu/workspace/nane/bin/celery: ENOTDIR
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /home/ubuntu/workspace/nane/bin/celery: ENOTDIR
+supervisor: child process was not spawned
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 229, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 492, in symbol_by_name
+    return symbol_by_name(name, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/utils/__init__.py", line 92, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named test1
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 229, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 492, in symbol_by_name
+    return symbol_by_name(name, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/utils/__init__.py", line 92, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named test1
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 229, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 492, in symbol_by_name
+    return symbol_by_name(name, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/utils/__init__.py", line 92, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named test1
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 229, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 492, in symbol_by_name
+    return symbol_by_name(name, imp=imp)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/utils/__init__.py", line 92, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named test1
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/__main__.py", line 30, in main
+    main()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 81, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/celery.py", line 769, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 309, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 469, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bin/base.py", line 489, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 248, in find_app
+    symbol_by_name=symbol_by_name, imp=imp,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/app/utils.py", line 232, in find_app
+    sym = imp(app)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named celery
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-15 23:57:19,422: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-15 23:57:19,452: INFO/MainProcess] Connected to amqp://buste123:**@127.0.0.1:5672//
+[2015-07-15 23:57:19,472: INFO/MainProcess] mingle: searching for neighbors
+[2015-07-15 23:57:20,498: INFO/MainProcess] mingle: all alone
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-15 23:57:20,515: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-15 23:57:20,515: WARNING/MainProcess] celery@buste12345-makingsure-1658558 ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@buste12345-makingsure-1658558 v3.1.18 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.14.13-c9-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f4731cb9c10 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   amqp://buste123:**@localhost:5672//
+- ** ---------- .> results:     mongodb://0.0.0.0:28017/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . test1.tasks.add
+  . test1.tasks.addcel
+  . test1.tasks.raisetask
+  . test1.tasks.sleeptask
+  . testapp.tasks.test
+
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:01:31,331: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:01:31,401: INFO/MainProcess] Connected to amqp://buste123:**@127.0.0.1:5672//
+[2015-07-16 00:01:31,423: INFO/MainProcess] mingle: searching for neighbors
+[2015-07-16 00:01:32,440: INFO/MainProcess] mingle: all alone
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:01:32,453: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:01:32,454: WARNING/MainProcess] celery@buste12345-makingsure-1658558 ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@buste12345-makingsure-1658558 v3.1.18 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.14.13-c9-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f6419510c10 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   amqp://buste123:**@localhost:5672//
+- ** ---------- .> results:     mongodb://0.0.0.0:28017/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . test1.tasks.add
+  . test1.tasks.addcel
+  . test1.tasks.raisetask
+  . test1.tasks.sleeptask
+  . testapp.tasks.test
+
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:13:41,608: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:13:41,636: INFO/MainProcess] Connected to amqp://buste123:**@127.0.0.1:5672//
+[2015-07-16 00:13:41,645: INFO/MainProcess] mingle: searching for neighbors
+[2015-07-16 00:13:42,655: INFO/MainProcess] mingle: all alone
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:13:42,670: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:13:42,670: WARNING/MainProcess] celery@buste12345-makingsure-1658558 ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@buste12345-makingsure-1658558 v3.1.18 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.14.13-c9-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f70caadbc10 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   amqp://buste123:**@localhost:5672//
+- ** ---------- .> results:     mongodb://0.0.0.0:28017/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . test1.tasks.add
+  . test1.tasks.addcel
+  . test1.tasks.raisetask
+  . test1.tasks.sleeptask
+  . testapp.tasks.test
+
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:15:31,400: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:15:31,436: INFO/MainProcess] Connected to amqp://buste123:**@127.0.0.1:5672//
+[2015-07-16 00:15:31,451: INFO/MainProcess] mingle: searching for neighbors
+[2015-07-16 00:15:32,461: INFO/MainProcess] mingle: all alone
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:15:32,479: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:15:32,479: WARNING/MainProcess] celery@buste12345-makingsure-1658558 ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@buste12345-makingsure-1658558 v3.1.18 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.14.13-c9-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7f7bfbfe4f90 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   amqp://buste123:**@localhost:5672//
+- ** ---------- .> results:     mongodb://0.0.0.0:28017/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . test1.tasks.add
+  . test1.tasks.addcel
+  . test1.tasks.raisetask
+  . test1.tasks.sleeptask
+  . testapp.tasks.test
+
+[2015-07-16 00:16:49,817: INFO/MainProcess] beat: Starting...
+[2015-07-16 00:16:49,817: INFO/MainProcess] Writing entries...
+[2015-07-16 00:16:49,875: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:16:49,881: INFO/MainProcess] Writing entries...
+[2015-07-16 00:16:49,884: INFO/MainProcess] Scheduler: Sending due task celerybesttest1 (test1.tasks.addcel)
+[2015-07-16 00:16:59,876: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:17:09,878: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:17:19,879: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:17:29,881: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:17:39,882: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:17:49,883: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:17:49,885: INFO/MainProcess] Scheduler: Sending due task celerybesttest1 (test1.tasks.addcel)
+[2015-07-16 00:17:59,884: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:18:09,885: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:18:19,887: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:18:27,128: INFO/MainProcess] Writing entries...
+[2015-07-16 00:18:27,135: INFO/MainProcess] Writing entries...
+celery beat v3.1.18 (Cipater) is starting.
+__    -    ... __   -        _
+Configuration ->
+    . broker -> amqp://buste123:**@localhost:5672//
+    . loader -> djcelery.loaders.DjangoLoader
+    . scheduler -> djcelery.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> now (0s)
+[2015-07-16 00:18:27,139: INFO/MainProcess] Writing entries...
+[2015-07-16 00:18:27,139: INFO/MainProcess] Writing entries...
+[2015-07-16 00:19:56,409: INFO/MainProcess] beat: Starting...
+[2015-07-16 00:19:56,409: INFO/MainProcess] Writing entries...
+[2015-07-16 00:19:56,471: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:19:56,475: INFO/MainProcess] Writing entries...
+[2015-07-16 00:19:56,477: INFO/MainProcess] Scheduler: Sending due task celerybesttest1 (test1.tasks.addcel)
+[2015-07-16 00:20:06,472: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:20:16,473: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:20:26,474: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:20:36,475: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:20:46,475: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:20:56,476: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:20:56,479: INFO/MainProcess] Scheduler: Sending due task celerybesttest1 (test1.tasks.addcel)
+[2015-07-16 00:21:06,476: INFO/MainProcess] Scheduler: Sending due task add123 (test1.tasks.add)
+[2015-07-16 00:21:11,296: INFO/MainProcess] Writing entries...
+[2015-07-16 00:21:11,303: INFO/MainProcess] Writing entries...
+celery beat v3.1.18 (Cipater) is starting.
+__    -    ... __   -        _
+Configuration ->
+    . broker -> amqp://buste123:**@localhost:5672//
+    . loader -> djcelery.loaders.DjangoLoader
+    . scheduler -> djcelery.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> now (0s)
+[2015-07-16 00:21:11,304: INFO/MainProcess] Writing entries...
+[2015-07-16 00:21:11,304: INFO/MainProcess] Writing entries...
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:23:00,014: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:23:00,049: INFO/MainProcess] Connected to amqp://buste123:**@127.0.0.1:5672//
+[2015-07-16 00:23:00,058: INFO/MainProcess] mingle: searching for neighbors
+[2015-07-16 00:23:01,068: INFO/MainProcess] mingle: all alone
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:23:01,083: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:23:01,084: WARNING/MainProcess] celery@buste12345-makingsure-1658558 ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@buste12345-makingsure-1658558 v3.1.18 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.14.13-c9-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         default:0x7fd83e175c10 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> transport:   amqp://buste123:**@localhost:5672//
+- ** ---------- .> results:     mongodb://0.0.0.0:28017/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . test1.tasks.add
+  . test1.tasks.addcel
+  . test1.tasks.raisetask
+  . test1.tasks.sleeptask
+  . testapp.tasks.test
+
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:23:21,545: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+[2015-07-16 00:23:21,586: INFO/MainProcess] Connected to amqp://buste123:**@127.0.0.1:5672//
+[2015-07-16 00:23:21,600: INFO/MainProcess] mingle: searching for neighbors
+[2015-07-16 00:23:22,610: INFO/MainProcess] mingle: all alone
+/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:23:22,626: WARNING/MainProcess] /home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/djcelery/loaders.py:136: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warn('Using settings.DEBUG leads to a memory leak, never '
+
+[2015-07-16 00:23:22,626: WARNING/MainProcess] celery@buste12345-makingsure-1658558 ready.
+[2015-07-16 13:52:20,723: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/worker/consumer.py", line 278, in start
+    blueprint.start(self)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/worker/consumer.py", line 821, in start
+    c.loop(*c.loop_args())
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/celery/worker/loops.py", line 70, in asynloop
+    next(loop)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/async/hub.py", line 324, in create_loop
+    cb(*cbargs)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/transport/base.py", line 162, in on_readable
+    reader(loop)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/kombu/transport/base.py", line 144, in _read
+    drain_events(timeout=0)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/amqp/connection.py", line 302, in drain_events
+    chanmap, None, timeout=timeout,
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/amqp/connection.py", line 365, in _wait_multiple
+    channel, method_sig, args, content = read_timeout(timeout)
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/amqp/connection.py", line 336, in read_timeout
+    return self.method_reader.read_method()
+  File "/home/ubuntu/workspace/nane/local/lib/python2.7/site-packages/amqp/method_framing.py", line 189, in read_method
+    raise m
+error: [Errno 104] Connection reset by peer
+[2015-07-16 13:52:21,449: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2015-07-16 13:52:23,479: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2015-07-16 13:52:27,505: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+[2015-07-16 13:52:33,533: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds...
+
+[2015-07-16 13:52:41,578: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 10.00 seconds...
+
+[2015-07-16 13:52:51,606: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 12.00 seconds...
+
+[2015-07-16 13:53:03,638: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 14.00 seconds...
+
+[2015-07-16 13:53:17,667: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 16.00 seconds...
+
+[2015-07-16 13:53:33,697: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 18.00 seconds...
+
+[2015-07-16 13:53:51,728: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 20.00 seconds...
+
+[2015-07-16 13:54:11,766: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 22.00 seconds...
+
+[2015-07-16 13:54:33,803: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 24.00 seconds...
+
+[2015-07-16 13:54:57,837: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 26.00 seconds...
+
+[2015-07-16 13:55:23,874: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 28.00 seconds...
+
+[2015-07-16 13:55:51,917: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 30.00 seconds...
+
+[2015-07-16 13:56:21,979: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 13:56:54,012: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 13:57:26,055: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 13:57:58,096: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 13:58:30,130: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 13:59:02,179: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 13:59:34,215: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:00:06,246: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:00:38,288: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:01:10,330: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:01:42,372: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:02:14,408: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:02:46,442: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:03:18,479: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:03:50,519: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:04:22,567: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:04:54,617: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:05:26,650: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:05:58,681: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:06:30,715: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:07:02,748: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:07:34,785: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:08:06,830: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:08:38,866: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:09:10,907: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:09:42,945: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:10:14,984: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:10:47,016: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:11:19,050: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:11:51,084: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:12:23,119: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:12:55,173: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:13:27,228: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:13:59,268: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:14:31,296: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:15:03,329: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
+[2015-07-16 14:15:35,373: ERROR/MainProcess] consumer: Cannot connect to amqp://buste123:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 32.00 seconds...
+
